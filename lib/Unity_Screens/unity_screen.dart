@@ -1,12 +1,8 @@
-import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_unity_widget/flutter_unity_widget.dart';
 import 'package:hexAr/Widget/CircularButton.dart';
 import 'package:hexAr/Widget/select_effect_button.dart';
-// import 'package:geolocator/geolocator.dart';
 import 'package:location/location.dart';
-
-String link = "https://scontent.fhan14-1.fna.fbcdn.net/v/t39.30808-6/257806154_1304809436632593_5544268618515568260_n.jpg?_nc_cat=107&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=cuTrfG2r6UQAX8yHkK9&tn=gL_fe3OQHx5hr7J6&_nc_ht=scontent.fhan14-1.fna&oh=00_AT_0J5dS_g3-KngF2iyx0MhYHfO14uLg0t68g1fMgY5rcQ&oe=61CF5C2F";
 
 
 class UnityScreen extends StatefulWidget {
@@ -27,10 +23,6 @@ class _UnityScreenState extends State<UnityScreen> with SingleTickerProviderStat
 
 
   Location location = new Location();
-  bool _serviceEnabled;
-  PermissionStatus _permissionGranted;
-  LocationData _locationData;
-  bool _isListenLocation = false;
 
 
   double getRadiansFromDegree(double degree) {
@@ -156,27 +148,31 @@ class _UnityScreenState extends State<UnityScreen> with SingleTickerProviderStat
                     children: <Widget>[
                       Padding(
                         padding: const EdgeInsets.fromLTRB(20, 50, 10, 10),
-                        child: SelectEffect(unityWidgetController: _unityWidgetController, link: link, effect: 'Effect 1',),
+                        child: SelectEffect(unityWidgetController: _unityWidgetController, link: 'lib/images/great-buddha-of-thailand.png', effect: 'Effect 0',),
+                      ),
+                      Padding(
+                        padding: const EdgeInsets.fromLTRB(20, 50, 10, 10),
+                        child: SelectEffect(unityWidgetController: _unityWidgetController, link: 'lib/images/snowflakes.png', effect: 'Effect 1',),
                       ),
                       Padding(
                         padding: const EdgeInsets.fromLTRB(10, 50, 10, 10),
-                        child: SelectEffect(unityWidgetController: _unityWidgetController, link: link, effect: 'Effect 2'),
+                        child: SelectEffect(unityWidgetController: _unityWidgetController, link: 'lib/images/buildings.png', effect: 'Effect 2'),
                       ),
                       Padding(
                         padding: const EdgeInsets.fromLTRB(10, 50, 10, 10),
-                        child: SelectEffect(unityWidgetController: _unityWidgetController, link: link, effect: 'Effect 3'),
+                        child: SelectEffect(unityWidgetController: _unityWidgetController, link: 'lib/images/fireworks.png', effect: 'Effect 3'),
                       ),
                       Padding(
                         padding: const EdgeInsets.fromLTRB(10, 50, 10, 10),
-                        child: SelectEffect(unityWidgetController: _unityWidgetController, link: link, effect: 'Effect 4'),
+                        child: SelectEffect(unityWidgetController: _unityWidgetController, link: 'lib/images/fireworks-2.png', effect: 'Effect 4'),
                       ),
                       Padding(
                         padding: const EdgeInsets.fromLTRB(10, 50, 20, 10),
-                        child: SelectEffect(unityWidgetController: _unityWidgetController, link: link, effect: 'Effect 5'),
+                        child: SelectEffect(unityWidgetController: _unityWidgetController, link: 'lib/images/fireworks-3.png', effect: 'Effect 5'),
                       ),
                       Padding(
                         padding: const EdgeInsets.fromLTRB(10, 50, 20, 10),
-                        child: SelectEffect(unityWidgetController: _unityWidgetController, link: link, effect: 'Effect 6'),
+                        child: SelectEffect(unityWidgetController: _unityWidgetController, link: 'lib/images/merlion.png', effect: 'Effect 6'),
                       ),
                     ],
                   ),

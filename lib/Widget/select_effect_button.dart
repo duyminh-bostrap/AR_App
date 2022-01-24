@@ -52,7 +52,9 @@ class _SelectEffect extends State<SelectEffect> {
         },
         child: ClipRRect(
             borderRadius: BorderRadius.circular(28.0),
-            child: CachedNetworkImage(imageUrl: widget.link, fit: BoxFit.cover,)
+            child: Image(
+              image: AssetImage(widget.link),
+              fit: BoxFit.cover,)
         ),
       ),
     )
