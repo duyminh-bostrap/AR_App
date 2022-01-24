@@ -43,20 +43,16 @@ class _SelectEffect extends State<SelectEffect> {
         onTap: () {
           setState(() {
             isActive = (isActive != 1) ? 1: 0;
-            print(isActive);
             widget.unityWidgetController.postMessage(
               widget.effect,
               'setAcitive',
               isActive.toString(),
             );
           });
-          },
+        },
         child: ClipRRect(
             borderRadius: BorderRadius.circular(28.0),
-            child: Image(
-              image: AssetImage(widget.link),
-              fit: BoxFit.cover,
-            )
+            child: CachedNetworkImage(imageUrl: widget.link, fit: BoxFit.cover,)
         ),
       ),
     )
