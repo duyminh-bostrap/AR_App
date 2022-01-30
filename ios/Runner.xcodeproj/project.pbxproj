@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		1498D2341E8E89220040F4C2 /* GeneratedPluginRegistrant.m in Sources */ = {isa = PBXBuildFile; fileRef = 1498D2331E8E89220040F4C2 /* GeneratedPluginRegistrant.m */; };
+		180B7A1C27A6BE7600ACCD1F /* UnityDriver.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1824F60B27635FD20031257A /* UnityDriver.framework */; platformFilter = ios; };
+		180B7A1D27A6BE7600ACCD1F /* UnityDriver.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1824F60B27635FD20031257A /* UnityDriver.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		180B7A1E27A6BE7600ACCD1F /* VuforiaEngine.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1824F60C27635FD20031257A /* VuforiaEngine.framework */; platformFilter = ios; };
+		180B7A1F27A6BE7600ACCD1F /* VuforiaEngine.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1824F60C27635FD20031257A /* VuforiaEngine.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		1824F6112763601B0031257A /* Debug.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 9740EEB21CF90195004384FC /* Debug.xcconfig */; };
 		3B3967161E833CAA004F5970 /* AppFrameworkInfo.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3B3967151E833CAA004F5970 /* AppFrameworkInfo.plist */; };
 		74858FAF1ED2DC5600515810 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74858FAE1ED2DC5600515810 /* AppDelegate.swift */; };
@@ -26,6 +30,8 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				180B7A1F27A6BE7600ACCD1F /* VuforiaEngine.framework in Embed Frameworks */,
+				180B7A1D27A6BE7600ACCD1F /* UnityDriver.framework in Embed Frameworks */,
 				CD6F5C8A25C8A42B00F1B679 /* UnityFramework.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
@@ -62,6 +68,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				CD6F5C8925C8A42B00F1B679 /* UnityFramework.framework in Frameworks */,
+				180B7A1E27A6BE7600ACCD1F /* VuforiaEngine.framework in Frameworks */,
+				180B7A1C27A6BE7600ACCD1F /* UnityDriver.framework in Frameworks */,
 				C7A966626A3B6805C50136B8 /* Pods_Runner.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
