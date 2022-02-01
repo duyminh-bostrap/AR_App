@@ -27,10 +27,11 @@ class _SelectEffect extends State<SelectEffect> {
   Widget build(BuildContext context) {
     return widget.link != null
         ? Container(
+      padding: EdgeInsets.fromLTRB(5, 10, 5, 10),
       height: 125,
       width: 100,
       decoration: BoxDecoration(
-        color: (isActive != 1)? Colors.lightGreenAccent: Colors.transparent,
+        color: Colors.black,
         border: Border.all(
           width: 4.0,
           color: (isActive != 1)? Colors.lightGreenAccent: Colors.transparent,
@@ -50,12 +51,9 @@ class _SelectEffect extends State<SelectEffect> {
             );
           });
         },
-        child: ClipRRect(
-            borderRadius: BorderRadius.circular(28.0),
-            child: Image(
+        child: Image(
               image: AssetImage(widget.link),
               fit: BoxFit.cover,)
-        ),
       ),
     )
         : const SizedBox.shrink();

@@ -146,34 +146,38 @@ class _UnityScreenState extends State<UnityScreen> with SingleTickerProviderStat
                   ListView(
                     scrollDirection: Axis.horizontal,
                     children: <Widget>[
+                      // Padding(
+                      //   padding: const EdgeInsets.fromLTRB(20, 50, 10, 10),
+                      //   child: SelectEffect(unityWidgetController: _unityWidgetController, link: 'lib/images/great-buddha-of-thailand.png', effect: 'Effect 0',),
+                      // ),
+                      // Padding(
+                      //   padding: const EdgeInsets.fromLTRB(20, 50, 10, 10),
+                      //   child: SelectEffect(unityWidgetController: _unityWidgetController, link: 'lib/images/snowflakes.png', effect: 'Effect 1',),
+                      // ),
                       Padding(
-                        padding: const EdgeInsets.fromLTRB(20, 50, 10, 10),
-                        child: SelectEffect(unityWidgetController: _unityWidgetController, link: 'lib/images/great-buddha-of-thailand.png', effect: 'Effect 0',),
+                        padding: const EdgeInsets.fromLTRB(10, 70, 10, 10),
+                        child: SelectEffect(unityWidgetController: _unityWidgetController, link: 'lib/images/buildings.png', effect: 'Effect 0'),
                       ),
                       Padding(
-                        padding: const EdgeInsets.fromLTRB(20, 50, 10, 10),
-                        child: SelectEffect(unityWidgetController: _unityWidgetController, link: 'lib/images/snowflakes.png', effect: 'Effect 1',),
+                        padding: const EdgeInsets.fromLTRB(10, 70, 10, 10),
+                        child: SelectEffect(unityWidgetController: _unityWidgetController, link: 'lib/images/fireworks.png', effect: 'Effect 2'),
                       ),
                       Padding(
-                        padding: const EdgeInsets.fromLTRB(10, 50, 10, 10),
-                        child: SelectEffect(unityWidgetController: _unityWidgetController, link: 'lib/images/buildings.png', effect: 'Effect 2'),
+                        padding: const EdgeInsets.fromLTRB(10, 70, 10, 10),
+                        child: SelectEffect(unityWidgetController: _unityWidgetController, link: 'lib/images/fireworks-2.png', effect: 'Effect 3'),
                       ),
                       Padding(
-                        padding: const EdgeInsets.fromLTRB(10, 50, 10, 10),
-                        child: SelectEffect(unityWidgetController: _unityWidgetController, link: 'lib/images/fireworks.png', effect: 'Effect 3'),
+                        padding: const EdgeInsets.fromLTRB(10, 70, 20, 10),
+                        child: SelectEffect(unityWidgetController: _unityWidgetController, link: 'lib/images/fireworks-3.png', effect: 'Effect 4'),
                       ),
                       Padding(
-                        padding: const EdgeInsets.fromLTRB(10, 50, 10, 10),
-                        child: SelectEffect(unityWidgetController: _unityWidgetController, link: 'lib/images/fireworks-2.png', effect: 'Effect 4'),
+                        padding: const EdgeInsets.fromLTRB(10, 70, 20, 10),
+                        child: SelectEffect(unityWidgetController: _unityWidgetController, link: 'lib/images/love.png', effect: 'Effect 5'),
                       ),
-                      Padding(
-                        padding: const EdgeInsets.fromLTRB(10, 50, 20, 10),
-                        child: SelectEffect(unityWidgetController: _unityWidgetController, link: 'lib/images/fireworks-3.png', effect: 'Effect 5'),
-                      ),
-                      Padding(
-                        padding: const EdgeInsets.fromLTRB(10, 50, 20, 10),
-                        child: SelectEffect(unityWidgetController: _unityWidgetController, link: 'lib/images/merlion.png', effect: 'Effect 6'),
-                      ),
+                      // Padding(
+                      //   padding: const EdgeInsets.fromLTRB(10, 50, 20, 10),
+                      //   child: SelectEffect(unityWidgetController: _unityWidgetController, link: 'lib/images/merlion.png', effect: 'Effect 6'),
+                      // ),
                     ],
                   ),
                 ),
