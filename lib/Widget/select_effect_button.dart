@@ -34,7 +34,7 @@ class _SelectEffect extends State<SelectEffect> {
         color: Colors.black,
         border: Border.all(
           width: 4.0,
-          color: (isActive != 1)? Colors.lightGreenAccent: Colors.transparent,
+          color: (isActive != 1)? Color.fromRGBO(240, 113, 124, 1.0): Colors.transparent,
         ),
         borderRadius: BorderRadius.circular(30),
       ),

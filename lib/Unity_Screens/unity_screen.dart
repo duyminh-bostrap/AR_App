@@ -154,10 +154,10 @@ class _UnityScreenState extends State<UnityScreen> with SingleTickerProviderStat
                       //   padding: const EdgeInsets.fromLTRB(20, 50, 10, 10),
                       //   child: SelectEffect(unityWidgetController: _unityWidgetController, link: 'lib/images/snowflakes.png', effect: 'Effect 1',),
                       // ),
-                      Padding(
-                        padding: const EdgeInsets.fromLTRB(10, 70, 10, 10),
-                        child: SelectEffect(unityWidgetController: _unityWidgetController, link: 'lib/images/buildings.png', effect: 'Effect 0'),
-                      ),
+                      // Padding(
+                      //   padding: const EdgeInsets.fromLTRB(10, 70, 10, 10),
+                      //   child: SelectEffect(unityWidgetController: _unityWidgetController, link: 'lib/images/buildings.png', effect: 'Effect 0'),
+                      // ),
                       Padding(
                         padding: const EdgeInsets.fromLTRB(10, 70, 10, 10),
                         child: SelectEffect(unityWidgetController: _unityWidgetController, link: 'lib/images/fireworks.png', effect: 'Effect 2'),
