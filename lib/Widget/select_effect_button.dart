@@ -20,6 +20,10 @@ class SelectEffect extends StatefulWidget {
   @override
   _SelectEffect createState() => _SelectEffect();
 }
+
+// Cũng gõ gõ như biết code ý :v
+
+
 class _SelectEffect extends State<SelectEffect> {
   int isActive = 1;
 
